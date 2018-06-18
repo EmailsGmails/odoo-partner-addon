@@ -1,0 +1,18 @@
+<odoo>
+    <data>
+        <record id="455" model="res.partner">
+            <field name="name">George</field>
+            <field name="company_code">WG</field>
+        </record>
+
+        <record id="544" model="res.partner">
+            <field name="name">LeTech</field>
+            <field name="company_code">WG</field>
+        </record>
+
+        <record id="666" model="res.partner">
+            <field name="name">Fen</field>
+            <field name="company_code">TTLG</field>
+        </record>
+    </data>
+</odoo>

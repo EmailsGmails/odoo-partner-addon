@@ -1,0 +1,23 @@
+ <odoo>
+    <record id="view_partner_company_code_form" model="ir.ui.view">
+        <field name="name">partner_company_code</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='vat']" position="after">
+                <field name="company_code" placeholder="e.g. WG"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="view_partner_company_code_short_form" model="ir.ui.view">
+        <field name="name">partner_company_code</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_short_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='vat']" position="after">
+                <field name="company_code" placeholder="e.g. WG"/>
+            </xpath>
+        </field>
+    </record>
+ </odoo>
